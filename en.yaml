@@ -1,0 +1,1603 @@
+globals:
+  language: English (US)
+  no_data:
+    msg: 'Sorry, no data 😕'
+
+time_format:
+  day:
+    unit: '{days}d'
+  hour:
+    unit: '{hours}h'
+  min:
+    unit: '{mins}m'
+  sec:
+    unit: '{secs}s'
+
+numbers:
+  counter:
+    mod10_1: '{num}st'
+    mod10_2: '{num}nd'
+    mod10_3: '{num}rd'
+    other: '{num}th'
+
+special:
+  languages:
+    en: English
+    de: Deutsch
+  float:
+    delim: '.'
+  icons:
+    pr: ⭐️
+    pz: ⚡️
+    no_data: '—'
+    unknown: '?'
+  disc:
+    cycling:
+      name: Cycling
+      workout: ride
+    running:
+      name: Running
+      workout: run
+    bike_bootcamp:
+      name: Bike Bootcamp
+      workout: bike bootcamp
+    bootcamp:
+      name: Tread Bootcamp
+      workout: tread bootcamp
+    strength:
+      name: Strength
+      workout: strength workout
+    cardio:
+      name: Cardio
+      workout: cardio workout
+    yoga:
+      name: Yoga
+      workout: yoga class
+    walking:
+      name: Walking
+      workout: walk
+    meditation:
+      name: Meditation
+      workout: meditation
+    stretching:
+      name: Stretching
+      workout: stretch
+    outdoor:
+      name: Outdoor
+      workout: outdoor workout
+    circuit:
+      name: Circuit
+      workout: circuit workout
+
+  month:
+    mo1:
+      short: J
+      medium: Jan
+      long: January
+    mo2:
+      short: F
+      medium: Feb
+      long: February
+    mo3:
+      short: M
+      medium: Mar
+      long: March
+    mo4:
+      short: A
+      medium: Apr
+      long: April
+    mo5:
+      short: M
+      medium: May
+      long: May
+    mo6:
+      short: J
+      medium: Jun
+      long: June
+    mo7:
+      short: J
+      medium: Jul
+      long: July
+    mo8:
+      short: A
+      medium: Aug
+      long: August
+    mo9:
+      short: S
+      medium: Sep
+      long: September
+    mo10:
+      short: O
+      medium: Oct
+      long: October
+    mo11:
+      short: 'N'
+      medium: Nov
+      long: November
+    mo12:
+      short: 'D'
+      medium: Dec
+      long: December
+
+list:
+  and: 'and'
+
+model:
+  unknown_key: 'Ooops. There is no data for this lookup key. Try reloading the app. ({key})'
+
+time:
+  desc:
+    weeks: weeks
+    days: days
+    week: week
+    day: day
+    day_short: d
+    week_short: w
+    today: today
+  ago:
+    days_ago: '{days} days ago'
+    now: now
+    today: today
+    yesterday: yesterday
+    this_week: This week
+    last_week: Last week
+    weeks_2_ago: Two weeks ago
+    weeks_3_ago: Three weeks ago
+    weeks_4_ago: Four weeks ago
+    this_month: This month
+    last_month: Last month
+    month_2_ago: Two months ago
+    month_3_ago: Three months ago
+    month_4_ago: Four months ago
+    month_5_ago: Five months ago
+    a_while: A while back
+    short:
+      days_ago: '{days}d'
+      weeks_ago: '{weeks}w'
+      weeks_days_ago: '{weeks}w {days}d'
+  relative:
+    this_week: This week
+    last_week: Last week
+    this_month: This month
+    last_month: Last month
+  duration:
+    time:
+      hms: '{hour}:{min}:{sec}'
+      ms: '{min}:{sec}'
+    abbr:
+      hms: '{hour}h {min}m {sec}s'
+      ms: '{min}m {sec}s'
+
+
+units:
+  pelopower:
+    long: points
+    short: pts
+  km: km
+  mile: mi
+  output: kj
+  watts: watts
+  meter: m
+  feet: ft
+  pacing:
+    km: 'min/km'
+    mile: 'min/mi'
+  speed:
+    km: 'km/h'
+    mile: mph
+  calories: kcal
+  heartrate: bpm
+  fitness: j/hb
+  fitness_dist:
+    km: km/10khb
+    mile: mi/10khb
+  weight:
+    kg: kg
+    lb: lb
+  gender:
+    male: male
+    female: female
+
+metrics:
+  output:
+    name: Total Output
+    unit: kj
+  baseline:
+    name: Baseline
+    unit: kj
+  score:
+    name: PeloPower
+    unit: pts
+  fitness:
+    name: Fitness
+    unit: j/hb
+    unit_dist_km: km/10khb
+    unit_dist_mi: mi/10khb
+  effort_points:
+    name: Strive Score
+  heart_rate:
+    name: Heart Rate
+    unit: bpm
+  calories:
+    name: Calories
+    unit: kcal
+  distance:
+    name: Distance
+    unit_km: km
+    unit_mi: mi
+    unit_miles: miles
+  duration:
+    unit: min
+  leaderboard:
+    name: Leaderboard
+    unit: '%'
+  pacing:
+    name: Ave. Pace
+  speed:
+    name: Speed
+  fastest_km:
+    name: Fastest Km
+  fastest_mi:
+    name: Fastest Mile
+  ave_incline:
+    name: Ave. Incline
+    unit: '%'
+  elevation:
+    name: Elevation
+  ave_output:
+    name: Ave. Output
+    unit: watts
+  tss:
+    name: TSS
+  ftp:
+    name: FTP
+    unit: watts
+
+errors:
+  unknown: 'Unknown Error'
+  no_connection: 'Not connected to the internet'
+  login_expired: 'Login no longer valid'
+  bootup_disconnect: 'Pelotrak needs to be able to connect to the internet to boot up. You seem disconnected. Please check your network connection and try again.'
+  missing_reports: 'Note the following reports could not be shown because no data was available for them: {missing_list}.'
+  missing_class:
+    name: Just Ride
+    description: Cycling Workout
+    img_url: 'https://pelotrak.s3.amazonaws.com/disclaimer.jpg'
+    no_edit_warn: 'Sorry, Just Ride classes cannot be edited or bookmarked in Pelotrak.'
+  bugs:
+    no_leaderboard: This workout is affected by a Peloton bug not showing your leaderboard data.
+    paused: This workout was either paused or is affected by a Peloton bug. No leaderboard data is available.
+  heartrate:
+    no_monitor:
+      warning: No heart rate data found. Learn more why this is important.
+      details: 'No heart rate data was found in the classes from the last few months.\n\nPelotrak works a lot better with heart rate data. For example, it can calculate your fitness.\n\nConsider purchasing a heart rate monitor like the [Scosche Rhythm+](https://www.amazon.com/Scosche-RHYTHM-Heart-Monitor-Armband/dp/B00JQHTJS2/ref=as_li_ss_tl) ([Amazon](https://www.amazon.com/Scosche-RHYTHM-Heart-Monitor-Armband/dp/B00JQHTJS2/ref=as_li_ss_tl)) or [Wahoo TICKR FIT](https://www.amazon.com/gp/product/B078GRMFSN/ref=as_li_ss_tl) ([Amazon](https://www.amazon.com/gp/product/B078GRMFSN/ref=as_li_ss_tl) to get the most out of Pelotrak.'
+  page:
+    no_translate: 'Sorry, this page has not yet been translated. If you would like to help, please send a translation to oskar@pelotrak.com. It would be very much appreciated.'
+  no_data: No data
+  unknown_instr: Unknown
+  no_instr: No instructor
+
+button:
+  submit: Submit
+  login: Submit
+  processing: Processing...
+  save: save
+  clear: clear
+  pelopower: PeloPower?
+  share: share
+  cancel: cancel
+
+workout_category:
+  all: All Workouts
+  cycling: Rides
+  running: Runs
+  running_outdoor: 'Running & Outdoor'
+  strength: Strength Workouts
+  pz: Power Zone Rides
+  other: Other
+
+workout_targets:
+  arms:
+    short: Ar
+    long: Arms
+  legs:
+    short: Lg
+    long: Legs
+  core:
+    short: Cr
+    long: Core
+  chest:
+    short: Ch
+    long: Chest
+  shoulders:
+    short: Sh
+    long: Shoulders
+  back:
+    short: Bk
+    long: Back
+  torso:
+    short: Tr
+    long: Torso
+  fitness:
+    short: Fit
+    long: Fitness
+  strength:
+    short: Str
+    long: Strength
+  flexibility:
+    short: Flx
+    long: Flexibility
+  mindfulness:
+    short: Mnd
+    long: Mindfulness
+
+homepage:
+  links:
+    title: Deep Dive
+    buttons:
+      about:
+        title: About Pelotrak
+        subtitle: History, FAQ, Donations, Settings
+        img_url: 'https://pelotrak.s3.amazonaws.com/about2.jpg'
+      all: Workouts
+      rides: Rides
+      runs: Runs
+      pz: Power Zone
+      strength: Strength
+      bookmarks: Bookmarks
+      learn: Learn
+      friends: Add Friends
+
+launcher:
+  login:
+    title: Peloton Login
+    popup:
+      title: Your Peloton Login
+      body: 'To analyze and track your workout data, Pelotrak needs your Peloton login information.\n\nThis login data remains securely on your phone and cannot be accessed by anyone else. Only your phone can load the updates and only when you request it.\n\nPlease also review the Pelotrak [Terms and Conditions](https://pelotrak.com/terms-conditions/).'
+    help: help
+    error:
+      password: Invalid username or password
+    username:
+      placeholder: Username or Email
+      error: Username or email is required
+    password:
+      placeholder: Password
+      error: Password is required
+  loading:
+    title: Loading Data...
+    popup:
+      title: Ready to Download Your Data?
+      error: Failed to Download Data
+      body: Pelotrak will now attempt to download all your workouts to your phone. Please don't leave the app until it is complete.
+      err_body: There was an error downloading your data. You will be asked to download a data log file. Please share this file with oskar@pelotrak.com to get this issue fixed asap. Thank you.
+      log:
+        title: Download Logs
+        body: Please email this log file to oskar@pelotrak.com. It might take a moment for the file to be generated.
+    button:
+      continue: Continue
+      error: Download Data Logs
+    tips:
+      title: Did You Know?
+      next: next tip
+      tip_1: Pelotrak has a unique score called PeloPower that evaluates each of your workouts based on effort and improvement.
+      tip_2: Pelotrak makes it easy to stay in close touch with your Peloton friends, go on rides together, and celebrate successes.
+      tip_3: Pelotrak is a free passion project but does cost money to maintain. Please consider donating if you enjoy it.
+      tip_4: Pelotrak is still in beta and your feedback would be super appreciated. Check the "About" section for details.
+  error:
+    title: Could Not Start Pelotrak
+    button: retry
+    message:
+      general: Pelotrak had problems starting up. Please make sure you have a good internet connection and restart the app.
+      specific: '🤦‍♂️ Embarrasing. Fortunately, this bug can be fixed (most likely). Please email oskar@pelotrak.com a screenshot of this screen. 🙏 Thanks! Error: {error}'
+
+updates:
+  new:
+    user: Found new friends.
+    workout: Found new workouts by friends.
+    yours: Added your new workouts.
+    version: A new version of Pelotrak is available. Please update.
+    bookmark: Bookmarks updated.
+  goals:
+    you: 'You reached new goals 🎉.'
+    friends: 'Friends reached new goals 🎉.'
+  high_five: Friends high fived you.
+  pz: Assigned PZ Target!
+
+buttons:
+  close: close
+  default: continue
+  alert:
+    cancel: cancel
+    confirm: continue
+    continue: continue
+  calendar:
+    confirm: ok
+
+payments:
+  name: Pelotrak Donation
+  desc: Pelotrak
+
+migration:
+  title: One Moment Please
+  body: This new version needs to do some data cleanup. This might take a moment. Please do not close the app. If you encounter issues, please contact oskar@pelotrak.com.
+  one_dot_five:
+    title: Updating you to 1.5
+    body: 'Pelotrak needs to reload all your workouts. This may take a few minutes. Please leave the app open. If it fails, please delete the app and install fresh.\n\nStatus: {perc}%'
+
+score_details:
+  title: PeloPower Breakdown
+  no_data: '--'
+  about: 'Learn about PeloPower >'
+  label:
+    output: Workout Output
+    improv: Improvement
+    improv_score: Improvement Points
+    duration: Workout Duration
+    dur_score: Duration Points
+    bonus:
+      early: 'Bonus: Early Bird'
+      pr: 'Bonus: Personal Record'
+    total: Total PeloPower
+    baseline: 6-week Baseline
+
+top_row:
+  title1: Your PeloPower This Week
+  title2: '{score}'
+  none: No pts
+  no_data: Sorry, no new data found.
+  heart:
+    title: No Heart Rate Data
+
+one_workout:
+  no_data: '--'
+  page_title: Your Workout
+  ftp_test_ago: FTP Test Ago
+  insights:
+    header: Insights
+    none: 'No insights found for this workout.'
+    loading: Loading insights...
+  notes:
+    header: Your Notes
+    title: Notes
+    none: '+ add a note'
+  data_header: Workout Data
+  pz:
+    no_data: 'Note: insufficient data for Power Zone analysis. Please run a Full Reload ("About" -> "Settings") to pull the data.'
+  cadence: Cadence
+  speed: Speed
+  incline: Incline
+  resistance: Resistance
+  splits: Splits
+  metrics_off: 'Note: based on how the data is provided, some metrics might be slightly time shifted and not align perfectly.'
+  learn_more_charts: Learn more about the Pelotrak graphs
+  warn_bootcamp: 'Workout is Bootcamp and does not count towards the PeloPower 6-week baseline.'
+  metrics:
+    heart_output: Output and Heart Rate
+    output: Output
+    heart_speed: Speed and Heart Rate
+    heart: Heart Rate
+  chart:
+    pz:
+      title: Power Zone Chart
+      histogram: Output Distribution
+      none: 'No instructor target zones available. '
+      more: Learn more...
+      search: Looking for zone targets...
+      found: 'Zone targets by {source}'
+  settings:
+    title: Workout Settings
+    manual_output:
+      warning: 'Once you save, please rerun the sync to update the PeloPower baseline and scores.'
+  header:
+    points: points
+  buttons:
+    score: PeloPower Breakdown
+    details: Notes & Class Details
+
+insights:
+  is_record:
+    record: Workout is a personal record! ⭐️
+    some_improv: You beat your 6-week baseline by {perc}.
+    good_improv: Good improvement of {perc} over 6-week baseline.
+    great_improv: Great improvement of {perc} over 6-week baseline.
+  near_pr: You were only {outdiff} kj away from beating your PR.
+  is_milestone:
+    hit: 'This is your {count} overall workout!'
+    next: 'Your next workout will be your {count} overall!'
+    coming_up: 'Your {count} overall workout is coming up in {diff} workouts.'
+  is_disc_milestone:
+    hit: 'This is your {count} {disc}!'
+    next: 'Your next {disc} will be your {count}!'
+    coming_up: 'Only {diff} left until your {count} {disc}.'
+  active_recovery:
+    output: 'Your active recovery output was around {out}.'
+    pace: 'Your active recovery pace was around {pace}.'
+  missing_data: 'Peloton did not capture the output of the complete ride and your total output is likely underreported. Pelotrak estimates your true total output to be around {trueoutput}kj.'
+  best_since:
+    best: 'This is your best {duration} {disc} in {daysago} days, since {date}.'
+    first: 'This is your first {duration} {disc} in {daysago} days, since {date}.'
+  followed_guidelines:
+    summary: 'You followed or exceeded target metrics {perc}% of the time.'
+    details: 'You followed or exceeded target metrics {perc}% of the time: cadence {perccad}%, resistance {percres}%.'
+  hard_workout:
+    hard: Seems like this was a hard workout!
+    easy: Seems like this was a easy workout.
+  in_leaderboard: You were in the top {perc}% of the leaderboard.
+  is_scorable: This is a non-scorable workout. No workout or heart data has been loaded and no PeloPower is being calculated.
+  pacing:
+    little_early: Your pacing was ok, but maybe you put in a bit too much too early.
+    much_early: Your pacing was poor, you put in too much too early.
+    good: Your pacing was good.
+    little_late: Your pacing was ok, but you probably could have pushed a bit earlier.
+    much_late: Your pacing was poor, you should have pushed earlier.
+  streak: This was your {workoutcnt} workout in a {weekstreak} week streak.
+  epoc:
+    short: You spent {epocmin} min in EPOC afterburn heart rate zones.
+    long: You spent {epocmin} min in EPOC afterburn heart rate zones (zone 4+5).
+  fastest_dist:
+    km_short: Your fastest km was {time}.
+    km_long: Your fastest km was {time} from {start} to {end}.
+    mi_short: Your fastest mile was {time}.
+    mi_long: Your fastest mile was {time} from {start} to {end}.
+  taken_before:
+    short: You have taken this class {times} times.
+    long: 'You have taken this class {times} times.'
+    long_output: 'You have taken this class {times} times: your best output was {best}kj, the worst was {worst}kj.'
+  friends_taken:
+    one: One of your friends has also taken this class recently.
+    many: 'You have {friends} friends who have also taken this class recently.'
+  better_than_ftp:
+    better: Your average output exceeded your previous FTP test.
+    most_recent: Time for a new FTP test?
+
+nps:
+  class:
+    question: How likely are you to recommend this class to your friends?
+    strong_icon: '👍'
+    hint:
+      not: 'not at all'
+      very: 'very likely'
+    recommended:
+      not: 'You would not recommend this class.'
+      sortof: You might recommend this class.
+      strong: 'You would strongly recommend this class. 👍'
+    init_popup:
+      title: 'Thank you'
+      body: 'Strong recommendations will show up with a 👍 and be used for future features.'
+      button: 'Got it!'
+
+most_recent_box:
+  intro: Your most recent workout
+  intro_same_day: This workout
+  link:
+    pelopower: PeloPower?
+    share: share
+    details: details
+    rides: rides
+    runs: runs
+    strength: strength
+    goals: goals
+  pelo_power:
+    intro: 'Your PeloPower consists of '
+    improve: '{scimprove} for improvement'
+    flat: '{scflat} for a {duration} workout'
+    bonus: '{scbonus}'
+    in_fix_bonus: ' bonus '
+    none: 'no'
+  workout:
+    start: was {daysago} with
+    output: an output of {output} and
+    score: '{score} of PeloPower.'
+  tss:
+    tss400: 'TSS is over 400 today: you might require up to 5 days to recover.'
+    tss300: 'TSS is over 300 today: you might require 2-4 days to recover.'
+    tss200: 'TSS is over 200 today: you might require 2 days to recover.'
+    tss100: 'TSS is over 100 today: you might need a day to recover.'
+  ftp:
+    overdue: Your next FTP test is overdue.
+    soon: It might be time for another FTP test soon.
+  goals:
+    under:
+      intro: For your goals, you are at {goals}.
+      goal: '{perc}% of {goal}'
+    over:
+      intro: 'You exceeded {goals}.'
+      goal: 'the {goal} goal by {perc}%'
+
+week_month_summary:
+  timespan: '{name} per {time}'
+  time:
+    week: week
+    month: month
+    year: year
+  applies:
+    all: workouts
+    no_510: workouts 15min or longer
+    fitness: fitness workouts
+    restore: restorative workouts
+    specific: workouts
+  panel:
+    days_left: '{days}d left'
+    ends_today: ends today
+    this_week:
+      title: This Week
+      subtitle: 'Week of %date%'
+    this_month:
+      title: This Month
+      subtitle: '%date%'
+    this_year:
+      title: This Year
+      subtitle: '%date%'
+    last_week:
+      title: Last Week
+      subtitle: 'Week of %date%'
+    last_month:
+      title: Last Month
+      subtitle: '%date%'
+    today:
+      title: Today
+      subtitle: '%date%'
+    yesterday:
+      title: Yesterday
+      subtitle: '%date%'
+  box:
+    count:
+      title: Workouts
+      unit: ''
+    output:
+      title: Output
+      unit: kj
+    min:
+      title_min: Minutes
+      title_hrs: 'Hrs:Min'
+      unit: ''
+    distance:
+      km:
+        title: Kilometers
+        unit: ''
+      mi:
+        title: Miles
+        unit: ''
+    tss:
+      title: TSS
+      unit: ''
+    cal:
+      title: Calories
+      unit: ''
+    score:
+      title: PeloPower
+      unit: 'pts'
+  instructors:
+    details: '{name}: {min}min'
+
+my_best_widget:
+  rides:
+    title: Your Best Rides
+  runs:
+    title: Your Best Runs
+  best:
+    output: Best Outputs
+    fitness: Best Fitness
+    leaderboard: Best Leaderboard Position
+    distance: Best Distance
+  titles:
+    length: Length
+    date: Date
+    best: ⭐️ Best
+    recent: Recent
+
+instructor_bubbles:
+  title: Your Top Instructors
+  column1: Instructor
+  duration:
+    all:
+      title: ever
+      button: all
+    mo3:
+      title: in the last 3 months
+      button: '3mo'
+    mo6:
+      title: in the last 6 months
+      button: '6mo'
+  minutes:
+    title: Time
+    subtitle: Most worked out with {time}
+    column2: Time
+  score:
+    title: PeloPower
+    subtitle: Best at helping you improve {time}
+    column2: Ave. Impr. Pts.
+  pr:
+    title: Personal Records
+    subtitle: Most PRs {time}
+    column2: Records ⭐️
+  strive:
+    title: Strive Score
+    subtitle: Most challenging workouts {time}
+    column2: Ave. Strive per min.
+
+graphs:
+  all:
+    title: All Workouts
+    day:
+      header: Your Focus Areas
+      title: 'Workouts on {date}'
+    all_nav:
+      button: All Your Workouts
+      subtitle: In a nice, chronological order
+      btn_img_url: 'https://pelotrak.s3.amazonaws.com/images/all_workouts_3b2.jpg'
+    goals:
+      header: Your Goals
+  rides:
+    title: Cycling
+    error_none: 'There are no reports available. You do not seem to have done any rides through Peloton.'
+  runs:
+    title: Running
+    error_none: 'There are no reports available. You do not seem to have done any runs through Peloton.'
+  strength:
+    title: Strength
+    error_none: 'There are no reports available. You do not seem to have done any strength classes through Peloton.'
+  duration_selector:
+    all: all
+    min5: 5min
+    min10: 10min
+    min15: 15min
+    min20: 20min
+    min30: 30min
+    min45: 45min
+    min60: 60min
+    min90: 90min
+  graph_page:
+    title: Your Last 12 Months
+  fitness_mom:
+    title: Fitness
+    subtitle: Monthly average
+  score_baseline_mom:
+    title: PeloPower
+    subtitle: Monthly average of 6-week baseline
+  minutes_mom:
+    title: Time Worked Out
+    subtitle: '{category} each month'
+  distance_mom:
+    title: Distance Covered
+    subtitle: '{category} each month'
+  heartrate_mom:
+    title: Heart Rate
+    subtitle: Average each month
+  fastest_dist:
+    km:
+      title: Fastest KM
+      subtitle: Monthly average
+    mi:
+      title: Fastest Mile
+      subtitle: Monthly average
+  strength_twirl:
+    title: Your Focus Areas
+    total: Total
+    no_workouts: No Workouts
+    show_more: show more
+    day:
+      subtitle: What you have been focusing on
+      popup_title: 'Strength workouts on {date}'
+      buttons:
+        summary: summary
+        day: day by day
+    week:
+      title: Week Summary
+      subtitle: What you have been focusing on
+      popup_title: 'Strength workouts the week of {date}'
+    month:
+      title: Month Summary
+      subtitle: What you have been focusing on
+      show_more: show last 12 months
+      popup_title: 'Strength workouts in {month}'
+
+goals:
+  buttons:
+    add: add goal
+    del: remove goal
+  no_goals: No goals yet
+  current: Your Current Goals
+  connector:
+    of: of
+    from: from
+  delete:
+    title: Delete Goals
+    subtitle: Select all goals you would like to delete
+    button: delete goals
+  add:
+    time: Time Frame
+    title:
+      week: Add Weekly Goal
+      month: Add Monthly Goal
+      year: Add Annual Goal
+    select: What kind of goal would you like to set?
+    count:
+      title: Number of Workouts
+      body: Set your goal to reach a number of workouts.
+    duration:
+      title: Duration
+      body: Set your goal to workout a specific number of minutes.
+    output:
+      title: Output
+      body: Set your goal to reach total output in kj.
+    score:
+      title: PeloPower
+      body: Set your goal to reach a number of PeloPower points.
+    distance:
+      title: Distance
+      body: Set your goal to reach a specific distance.
+    calories:
+      title: Calories
+      body: Set your goal to burn a specific number of Calories.
+    tss:
+      title: TSS
+      body: Set your goal to achieve a specific Power Zone TSS.
+    times:
+      title: What kind of goal would you like to set?
+      weekly:
+        title: Weekly goal
+        body: Lasts exactly a week.
+      monthly:
+        title: Monthly goal
+        body: Starts on the first of the month, ends on the last day of the month.
+      year:
+        title: Annual goal
+        body: Starts on the first of the year, ends on the last day of the year.
+    applies:
+      title: Which workouts contribute towards your goal?
+      all:
+        title: All Workouts
+        body: Every workout counts towards the goal.
+      no510:
+        title: Long Workouts
+        body: Workouts at least 15 minutes long.
+      fit:
+        title: Fitness Workouts
+        body: 'Workouts at least 10min long of the type: {fitwos}.'
+      restore:
+        title: Restorative Workouts
+        body: 'Any workout of the type: {reswos}.'
+      specific:
+        title: Specific Workout Type
+        body: Workouts of a specific type (select on the next screen).
+    value:
+      week: per week
+      month: per month
+      year: yer year
+      goal: Your Goal
+      button:
+        new: create goal
+      count:
+        title: How many workouts do you want to complete?
+      distance:
+        title: How far do you want to ride/run?
+      calories:
+        title: How many Calories do you want to burn?
+      score:
+        title: How many PeloPower point do you want to collect?
+      tss:
+        title: What is your total TSS to achieve?
+      output:
+        title: How many kj output do you want to generate?
+      duration:
+        title: How many minutes do you want to exercise?
+
+power_zone:
+  page_title: Power Zone Training
+  donate: '**Love the Power Zone Features?**'
+  missing_rides: 'Note: Power Zone data for older rides may be unavailable until you do a full reload. Go to "About" -> "Settings" -> "Full Reload"'
+  zones:
+    z1: Zone 1
+    z2: Zone 2
+    z3: Zone 3
+    z4: Zone 4
+    z5: Zone 5
+    z6: Zone 6
+    z7: Zone 7
+    spin: Spin Up
+  link:
+    learn: Intro to Power Zones
+    features: Pelotrak + Power Zones
+  switch:
+    title: Show Power Zone Metrics
+    desc: Turns on Power Zone metrics throughout the app.
+  ftp:
+    last: 'Your last FTP test was **{timeago} ago** on **{date}**.'
+    value: 'Your current FTP is **{ftp} Watts**.'
+    no_test: You have not yet taken an FTP test.
+    weeks: It is recommended to take a new FTP test every 6-12 weeks.
+    power_weight:
+      no_cat: 'Your power-to-weight ratio is **{ratio} W/kg**.'
+      with_cat: 'Your power-to-weight ratio is **{ratio} W/kg**, putting you roughly in the race category **{rider}**.'
+    change: change
+    chart:
+      title: Your FTPs
+  targets:
+    title: Community Zone Targets
+    intro_1: The zone targets the instructor provides during a PZ ride are not shared by Peloton and are collected by the Pelotrak PZ community.
+    intro_2: The more people record targets for a ride, the more accurate the targets become.
+    record: Record New Zone Targets
+    list: Ride Library
+    names:
+      short: '{datetime}, {duration}\n{zones}'
+      zones: 'Zones {min}-{max}'
+      spinups: 'Zones {min}-{max} with spin ups'
+  challenges:
+    title: Challenges
+    intro: Power Zone Challenges are multi-week training sessions with a specific focus on Power Zones.
+    link: Your Challenges
+    page: Power Zone Challenges
+    dates: '{start} - {end}'
+    other: Other Challenges
+    week: 'Week {week}'
+    button:
+      edit: edit
+      new: create new challenge
+      del: delete challenge
+      more: show more
+      less: show less
+    new:
+      page: New Power Zone Challenges
+      name: Challenge Name
+      date: Start Date
+      no_date: 'Add a start date...'
+      length: Length in Weeks
+      ends: 'Ends on {end}'
+      no_end: '--'
+      error:
+        overlap: Date range overlaps with an existing challenge.
+      button:
+        new: create
+        existing: save
+        del: delete
+        date: select
+    current:
+      title: Current Challenge
+      none: No current challenge
+      none_details: 'It looks like you have not done any rides for this challenge yet. Please come back here when you do for some awesome data. Or create another challenge for a past date range.'
+    tss:
+      none: '--'
+      prefix: 'TSS: '
+    chart:
+      label: Week
+      bar: TSS
+      week: 'week {num}'
+  tss:
+    search: TSS Ride Search
+    chart: TSS for {start} - {end}
+  library:
+    by: Zone targets provided by {users}
+    tss_title: TSS
+    no_tss: '--'
+    list: '{instr}, {airdate}'
+  record:
+    title:
+      intro: Record New Zone Targets
+      assign: Assign Zone Targets
+    intro: "Peloton does not provide the zone targets of PZ rides. With this recording tool, you can use your phone to track the instructor's zone targets. Once recorded, these zone targets will also be available to the Pelotrak community."
+    now_prefix: Now in
+    last_entry: End
+    long: '{time} long'
+    at: 'at {time}'
+    warn:
+      oops: (ooops button start)
+      short: (short segment)
+    url:
+      mounted: 'https://pelotrak.s3.amazonaws.com/images/pz_mounted.jpg'
+      zone_btn: 'https://pelotrak.s3.amazonaws.com/pz_how_to_record_2.png'
+    unassigned:
+      title: Your Unassigned Zone Targets
+      detail: 'When you refresh the your data, Pelotrak will automatically try to match these with a ride you have taken. If it cannot match one, you can manually assign them from here.'
+    assign:
+      none: No rides found. Did you refresh your data?
+      intro: '*Recorded on {datetime}*\n\nLength: {duration}, {zones}'
+      matching: Your Matching Rides
+      looking: Looking for rides...
+      ride_title: '{datetime}: {instructor}\n{title}'
+      btn:
+        del: delete
+        assign: assign
+    record:
+      intro: 'Hit the start button below after the intro, when the clock is at 0:00. Recording will start in Zone 1.\n\nYou might want to turn off notifications or put the phone in airplane mode to avoid distractions.\n\nWhile recording, Pelotrak will prevent the phone from going to sleep.\n\nOnce you are done, you can fix any mistakes.'
+    button:
+      intro: Record zones targets during a ride
+      record: start recording now
+      cancel: cancel
+      finish: Finish
+      delete: delete
+      split: split
+      done: done
+      edit: edit
+    type:
+      spin_up: Spin Up
+    outro:
+      text: 'Yay! Almost done! Please sync the Pelotrak app which will automatically try to match the zone targets you just recorded to a PZ ride.'
+      button: done
+    share:
+      title: Share with username
+      anon: Share anonymously
+      intro: 'This zone target data will be made available for all users. Would you like to be credited for the recording?'
+      button:
+        save: save recording
+        del: discard recording
+    library:
+      list: Ride Library
+      title: '{count} zone targets provided by the Pelotrak community so far. Thanks!'
+    list:
+      title: Zone Target Timestamps
+      note: 'You can make changes below. Suspiciously short segments, or segments where you pushed the Ooops button are marked.'
+  replay:
+    intro: '## Ride Guidance\n\nUse the Power Zone targets for this ride collected by the Pelotrak community for guidance during the ride.\n\nHit "Start Ride Now" below when the countdown for the ride hits zero and the ride starts.\n\nWhile you ride, Pelotrak will prevent the phone from falling asleep.\n\nTo learn more about helping collect target data, head to the "Community Zone Targets" in the Power Zone section.'
+    start: Start Ride Now
+    in: Now in
+    time: '{time}'
+    image:
+      subtitle: '{instructor}, {aired_at}'
+    adjust:
+      none: 'Adjust'
+      changed: '{sec} sec'
+      back_1: '◀'
+      back_5: '◀◀'
+      fore_1: '▶'
+      fore_5: '▶▶'
+    feedback:
+      title: 'How accurate were the target metrics?'
+      good: 'Very accurate ✅✅'
+      ok: 'Sufficiently accurate ✅'
+      bad: 'Not usable ❌'
+
+ftp:
+  page: Your FTPs
+  list:
+    new: Add Manual FTP
+    note: When you make changes to your FTPs, you will need to recalculate the TSS for your workouts. This is done automatically when you refresh your data or by pushing the button below.
+    recalc:
+      btn: Recalculate TSS
+      calc: recalculating...
+  desc:
+    test: FTP Test
+    manual: Manual Entry
+  new:
+    title: Date of FTP test
+    no_date: Add a date...
+    button: select
+    title_ftp: FTP
+    add: add FTP
+
+tss_search:
+  page: TSS Ride Search
+  none: Sorry, but none were found within +/- 10 TSS
+  library: From the Community Library
+  button: search
+  yours: Your Past Workouts
+  more: load more
+
+invite:
+  page: Installing Pelotrak
+  title: Instructions To Share With Friends
+  button: copy instructions to clipboard
+  confirm: Copied text to clipboard
+
+share:
+  page: 'Customize + Share'
+  watermark: '#pelotrak'
+  button:
+    image: Photo
+    height: Height
+    metric: Metric
+    chart: Chart
+    font: Text
+    insights: Insights
+    share: Share
+  dialog:
+    metric: Available Metrics
+    graph: Available Graphs
+    font: Customize Text
+    insights: Insights and Notes
+    height: Image Height
+  graph:
+    height: Height
+    opacity: Opacity
+    none:
+      text: No graph
+      id: none
+    output:
+      text: Output
+      id: output
+    pz:
+      text: Power Zone Graph
+      id: powerzone
+    distro:
+      text: Output Distribution
+      id: pzdistro
+  insight:
+    location: Location
+  font:
+    color: Text Color
+    shadow: Shadow Color
+    size: Text Size
+  metric:
+    score:
+      sub: pts
+      unit: PeloPower
+    output:
+      sub: kj
+      unit: Output
+    fitness:
+      sub: j/hb
+      unit: Fitness
+    strive:
+      sub: '.{dec}'
+      unit: Strive Score
+    heart:
+      sub: bpm
+      unit: Heart Rate
+    workout:
+      unit: Workout
+    calories:
+      sub: kcal
+      unit: Calories
+    distance:
+      sub:
+        km: km
+        mile: mi
+      unit: Distance
+    watts:
+      sub: watts
+      unit: Ave. Output
+    tss:
+      unit: TSS
+    duration:
+      sub: min
+      unit: ''
+  height:
+    preset:
+      title: Useful Presets
+      third: Third
+      sqr: Square
+      two_thirds: Two thirds
+      full: Fullsize
+      strava: Strava Mobile
+
+bookmarks:
+  page: Your Bookmarks
+  intro: These are your bookmarks. Organize them into lists and track your progress.
+  no_data: No data here, yet. Please do a refresh to load your bookmarks from Peloton and set up the initial list configuration.
+  nav:
+    groups: My Lists
+    disc: Class Types
+  add:
+    page: Add to List
+    button: save
+    uncategorized: No List
+  group:
+    page: Full List
+    new: new list
+    name_default: New List
+    settings: settings
+    edit: edit
+    complete:
+      none: '{cnt} bookmarks, none completed'
+      some: '{cnt} bookmarks, {cntcomp} completed ({perccomp}%)'
+      all: '{cnt} bookmarks, all completed'
+  list:
+    defaults:
+      def_1:
+        name: My Goals
+        desc: Which classes do you want to complete this month?
+      def_2:
+        name: Recommended to Me
+        desc: My friends love these
+      def_3:
+        name: Endurance Builders
+        desc: Workouts for getting fitter
+      def_4:
+        name: Group To Do
+        desc: Saving these for our next group ride
+      def_5:
+        name: My Favorites
+        desc: Good for doing again and recommending to friends
+      init_auto_friends_name: Recommended to Me
+    uncategorized: No List
+    more: show all
+    edit:
+      title: Edit List
+      color: Highlight Color
+      description: Description
+      button:
+        save: save
+        add: 'add / remove'
+        reorder: reorder
+      summary: 'There are {cnt} classes in this list.'
+      name:
+        label: List Name
+        error:
+          empty: Needs a name
+          used: You already have a list with that name
+      delete:
+        link: delete list
+        popup:
+          title: 'Really delete "{name}"?'
+          msg: 'This will only delete the list, not any classes in it. All classes without a list will show up in the "No List" category.'
+  settings:
+    title: Bookmark Settings
+    other:
+      title: '## Other Settings'
+      order_taken: Keep taken at the bottom
+      collapse: Show first 6 classes
+    unbookmark:
+      title: Unbookmark taken classes
+      intro: '## Auto-Unbookmark Classes\n\nUnbookmark classes automatically once you have taken them, allowing you to keep your bookmarks focused on the classes you have not taken yet. This only affects new workouts. Past bookmarks will not be changed. If a class is in a list, it will stay in the list, even without bookmark.'
+      popup: Unbookmark Taken Classes
+      never: Never
+      always: Always
+    auto:
+      title: Assign to list
+      intro: "## Feed Auto-Assign List\n\nWhen you bookmark a friend's class from the activity feed, automatically assign it to this list."
+      none: No List
+      popup: Assign to List
+    reset:
+      button: Reset All
+      intro: '## Bookmark Bankruptcy\n\nCollected too many bookmarks to manage? Clear out your Peloton bookmarks and your Pelotrak lists for a fresh start.'
+      group:
+        title: Reset all lists
+        success: Pelotrak lists have been reset
+        confirm: This will remove all classes assigned to lists and reset the lists to their Pelotrak defaults. Bookmarks will not be changed.
+      bookmark:
+        title: Remove all bookmarks
+        remove: Remove All
+        confirm: This will remove all your bookmarks from Peloton. This cannot be undone. Classes assigned to lists will remain in those lists. Please keep the app open.
+        success: All bookmarks have been removed
+        fail: Error removing bookmarks
+      confirm:
+        title: Are you sure?
+  slide:
+    unbookmark: unbookmark
+    bookmark: bookmark
+    add: add to list
+    del: remove
+  reorder:
+    page: Reorder List
+    intro: '## Reorder Lists\n\nReorder your lists here.'
+    button: save
+
+feed:
+  taken:
+    popular: 'Popular Class! {friends} friends took it.'
+    friends:
+      one: One friend has taken this class.
+      many: '{friends} friends have taken this class.'
+    not_me:
+      one: One other friend has also taken this class.
+      many: '{friends} friends have also taken this class.'
+    with_me:
+      only_me: You have also taken this class.
+      one: You and one friend have also taken this class.
+      many: 'You and {friends} other friends have also taken this class.'
+  goal:
+    primary: '{goal}'
+    secondary:
+      me:
+        met: 'You reached a {timespan} goal 🎉'
+        exceeded: 'You exceeded a {timespan} goal 🎉'
+      other:
+        met: '{username} reached a {timespan} goal 🎉'
+        exceeded: '{username} exceeded a {timespan} goal 🎉'
+    time:
+      weekly: weekly
+      monthly: monthly
+      annually: annually
+  workout:
+    primary: '{best_emoji}{best_note}{title}'
+    secondary: '{username} {best_emoji}'
+  me: You
+  unknown_user: unknown
+  best_emoji: '⭐️ '
+  best_note: 'PR! '
+  h5_count: '{count}x'
+  high_five:
+    title: High Fives
+    unknown: unknown
+    from: 'From {usernames}.'
+    none: Sorry, but no high fives yet.
+  favorites:
+    switch: Show only my close friends and me
+    card:
+      none: '😱 You do not have any close friends configured. Tap here to add some.'
+      one:  'Showing activities of one close friend and you. Tap here to change.'
+      many:  'Showing activities of {cnt} close friends and you. Tap here to change.'
+
+leaderboard:
+  title:
+    card: Top Athletes
+  subtitle: By PeloPower This Week
+  no_data: '-'
+  workouts: '{cnt}x'
+  position: '{pos}.'
+  about_score: PeloPower?
+  entry: '{rank}. {username}'
+  unknown_user: Unknown
+  board:
+    none: You are not on the board this week.
+    position: 'You are in position {position}.'
+
+workout_popup:
+  notes:
+    label: Your Notes
+    warning: Your notes are automatically saved when you close this popup.
+  bookmarked:
+    title: Bookmarked in Peloton
+  image:
+    share:
+      title: Peloton Link
+      open: open
+      copy: copy
+      share: share
+      share_text: '{name}, {summary}: {url}'
+      copy_msg: Copied link to clipboard
+  lists:
+    title: Your Lists
+    add: add to list
+    remove: remove
+    group_select: Your Lists
+  pz:
+    title: ⚡️ Power Zone Targets
+    tss: 'TSS {tss}'
+    replay: Ride Guidance
+    none: 'No Power Zone targets have been collected yet.\nHelp make Pelotrak better and get more out of your PZ data by recording the zones during a ride. Learn more...'
+    z1: z1
+    z2: z2
+    z3: z3
+    z4: z4
+    z5: z5
+    z6: z6
+    z7: z7
+    su: su
+    collected:
+      one: 'Collected by {name}.'
+      many: '{cnt} of {total}: Collected by {name}.'
+      score: Flagged as {quality}.
+      good: very accurate
+      ok: sufficiently accurate
+      bad: not usable
+      show_more: Tap to see other targets.
+
+who_taken:
+  youve_taken:
+    none: You have not taken this class.
+    once: You have taken this class once.
+    more: You have taken this class {times} times.
+    more_dates: 'You have taken this class {times} times: on {dates}.'
+  friends_taken:
+    none: None of your friends has taken this class.
+    one: One friend has taken this class.
+    more: '{friends} friends have taken this class.'
+  leaderboard:
+    you: You
+    you_multi: 'You, {date}'
+    none:
+      none: Neither you nor your friends have taken this class.
+      one: You have not taken this class but one of your friends has.
+      more: You have not taken this class but {friends} of your friends have.
+    one:
+      none: You have taken this class once. None of your friends have taken the class.
+      one: You and a friend have taken this class.
+      more: You and {friends} friends have taken this class.
+    more:
+      none: 'You have taken this class {you_cnt} times. None of your friends have taken the class.'
+      one: 'You have taken this class {you_cnt} times. One of your friends has also taken the class.'
+      more: 'You have taken this class {you_cnt} times. {friends} of your friends have also taken the class.'
+  nps:
+    you: you
+    recommended: 'It has been strongly recommended by {users} 👍.'
+
+donation:
+  title: Support Pelotrak
+  md_text: 'Please consider supporting Pelotrak with a donation to keep it free. Donating is easy with [Venmo, Zelle, PayPal, or Square Cash](https://qrtips.pkp.ro/?z=obruening@gmail.com&v=OskarCle&s=oskar&p=oskarbruening&a=5) (Venmo username: @OskarCle).'
+  md_apple: '**Or donate with Pay:**'
+  amount:
+    text_5: '$5'
+    text_10: '$10'
+    text_15: '$15'
+    text_20: '$20'
+  thanks:
+    title: '🙌 You are the best!'
+    body: 'Thank you so much. Pelotrak depends on donations to pay for hosting costs and all support is deeply appreciated!'
+
+learn:
+  title: Learn
+  categories:
+    pelotrak: Pelotrak
+    peloton: Peloton
+    new: What is New
+    pz: Intro to Power Zones
+    pzpelo: Power Zones + Pelotrak
+    bookmarks: Bookmarks
+    score: The PeloPower System
+    faq: FAQ
+    community: Community
+    instr: Instructors
+    beginners: New to Peloton?
+  about:
+    title: About Pelotrak
+    subtitle: FAQ, Donations, Settings
+    img: https://pelotrak.s3.amazonaws.com/about2.jpg
+
+about:
+  privacy:
+    link: About Privacy
+    subtitle: Keeping your data save
+  toc:
+    link: Terms and Conditions
+    subtitle: The legal stuff
+  faq:
+    link: Frequently Asked Questions
+    subtitle: Get into the details
+  settings:
+    link: Settings
+    subtitle: Customize your Pelotrak
+
+powerzone:
+  anonymous: anonymous
+  ftp:
+    chart:
+      label: Date
+      bars: FTP (Watts)
+  power_ratio:
+    riders:
+      int_pro: International Pro
+      dom_pro: Domestic Pro
+      elit_1: USAC Elite Cat 1
+      elit_2: USAC Elite Cat 2
+      cat_3: USAC Cat 3
+      cat_4: USAC Cat 4
+      cat_5: USAC Cat 5
+      amateur: Amateur
+
+all_workouts:
+  title: Your Workouts
+  filter:
+    title: Filters
+    section: Show Classes
+    smart: Smart Filter
+    pr: 'Records ⭐️'
+    pz: Power Zones
+    notes: Has Notes
+    cycle: Cycling
+    run: Running
+    strength: Strength
+    cardio: Cardio
+    yoga: Yoga
+    walking: Walking
+    meditation: Meditation
+    stretch: Stretching
+    outdoor: Outdoor
+  no_workouts: No matching workouts found.
+  tss: TSS
+
+r2020:
+  button:
+    title: 'Your {year} Review'
+    subtitle: Your annual highlights
+    img_url: 'https://pelotrak.s3.amazonaws.com/images/r2020_1.jpg'
+  pr:
+    many: PRs
+  date_range: '{date1} - {date2}'
+  footer: Created with Pelotrak
+  hashtag: '#Peloton{year}'
+  no_disc: Free Workout
+  no_workouts: No Workouts
+  intro:
+    text: '## Your {year} Review\n\n*Tap anywhere* to go to the next screen.\n*Take a screenshot* to share.\nUse *#pelotrak* if you like it.'
+    error: '## Your {year} Review\n\n*Ooops!* There is no data here. Reload your data to generate the {year} review.'
+    unavailable: '## Your {year} Review\n\nThe review is not yet generated, it will automatically become available on *{date}*.\n\n*Please come back then.*'
+  weeks:
+    title: Your Best Weeks
+    sub:
+      workouts: Workouts
+      time: Worked Out
+      output: Output
+    biggest_burn: 'Biggest Burn Week: {date}'
+    longest_streak: 'Longest Streak: {cnt} weeks'
+  month_output:
+    title: Your Average Output
+    duration_title: '{duration} Workouts'
+  top_instr:
+    title: Your Favorites
+  top_pr_instr:
+    title: 'Who Got You There'
+    line: '{count} {pr} ⭐️'
+  year_disc:
+    title: What You Did
+    total: Total
+    count: '{cnt}x'
+  goal:
+    title: "What's Your {nextyear} Goal?"
+  thanks:
+    title: "Don't Forget to Thank Them"
+    subtitle: "(they're the best)"
+    ig:
+      link: '@{name} (IG)'
+      url: 'https://www.instagram.com/{name}/'
+    fb:
+      link: '{name} (FB)'
+      url: 'https://www.facebook.com/{name}/'
+    no_social: '??'
+    donate:
+      title: And maybe donate to Pelotrak to help keep the lights on?
+      button: Donate Now
+
+settings:
+  page_title: Settings
+  version_summary: "Version: {version}, {language}\nPelotrak ID: {id}"
+  delete_log_files: Delete log files
+  generating_archive: Generating log bundle...
+  archive_log_files: Create log file bundle
+  archive_details: Log bundles may include personal identifiable information, such as your name. However, they do not include your Peloton login information.
+  reload_text: Full Reload
+  reload_button: Reload Now
+  full_reload_warn_title: Full Reload Warning
+  full_reload_warn_message: Do you really want to reload all data from Peloton? This could cause some errors. If the reload hangs, you might need to restart the app.
+  full_reload_done: Reload complete
+  update_complete_with_errors: Update completed with errors.
+  logout_text: Log out
+  logout_button: Logout Now
+  logout_warn_title: Do you want to Logout?
+  logout_warn_body: This will reset the Pelotrak app. It will take a moment for all the data to be cleared. Please do not close the app until you are on the login screen.
+  logout_error: Something went wrong. You might have to reinstall the app.
+  theme:
+    title: Theme
+    action: Select Theme
+    light: Always Light
+    dark: Always Dark
+    system: System
+  log:
+    clear: Clear Logs
+    download: Download Log
+    create: Creating new log file...
+  favorites:
+    title: Close Friends
+    note: For performance reasons, Pelotrak only adds the first {limit} people you are following from Peloton to your feed.
+    none: You are not following anyone.
+  starts_on:
+    title: Week starts on
+    monday: Monday
+    sunday: Sunday
+    msg:
+      title: Week start changed
+      body: 'Please restart the app and refresh your reports for this change to take effect everywhere.'
+  language:
+    title: Language
+    system: System
+  peloton:
+    title: Peloton Configuration
+    hint: Change these settings within Peloton and then refresh your Pelotrak data.
+    units:
+      body: Units are {units}.
+      imp: imperial
+      metric: metric
+    weight:
+      given: 'Your weight is {weight} {unit}.'
+      none: 'No weight specified.'
+    gender:
+      given: 'Your gender is {gender}.'
+      none: 'No gender specified.'
+  users:
+    link: Users in Feed
+    title: Activity Feed Users
+    pelotrak:
+      title: Pelotrak Users
+      subtitle: Users who have used Pelotrak in the last 90 days.
+      none: You are not following anyone using Pelotrak. Invite your friends to Pelotrak?
+    other:
+      title: Not Using Pelotrak
+      subtitle: Users not actively using Pelotrak.
+      none: No users here. Maybe follow more people?
+    error:
+      maxed:
+        title: Cannot add user to feed
+        body: You have reached the Pelotrak limit of number of users you can track in your feed. Please remove one to add a new one.
+    reminder:
+      title: Remember to refresh data
+      body: The changes you are making here will only take full effect after you have done a data refresh.
