@@ -1,12 +1,12 @@
-Pelotrak Installieren
+Wie man Pelotrak installiert
 
-Pelotrak ist noch immer in der Testphase. Es ist jedoch einfach es auszuprobieren:
+Pelotrak befindet sich noch in der Testphase. Solange es noch entwickelt wird, ist es jedoch einfach, mitzumachen:
 
 Apple iOS
-1. Installiere Apple's TestFlight App (https://apps.apple.com/us/app/testflight/id899247664)
-2. Melde dich für die Pelotrak beta an (http://bit.ly/pltrkios)
-3. Nachdem du dich angemeldest hast wird Apple eine E-Mail mit einem Code zuschicken (sollte sie nicht ankommen gucke sicherheitshalber auch in deinem Spam)
-4. Öffne TestFlight und klick auf "Einlösen" in der Ecke rechts oben und gebe den Code von der E-Mail ein.
-5. Du müsstest jetzt Pelotrak installieren können.
+1. Laden Sie Apples TestFlight herunter und öffnen Sie es (https://apps.apple.com/us/app/testflight/id899247664)
+2. Melden Sie sich für die Pelotrak-Test-App an (http://bit.ly/pltrkios)
+3. Nach der Anmeldung schickt Apple eine E-Mail mit einem Code (überprüfen Sie den Spam-Ordner, falls die E-Mail nicht ankommt).
+4. Öffnen Sie TestFlight und klicken Sie auf "einlösen" in der oberen rechten Ecke, geben Sie den Code aus der E-Mail ein.
+5. Dies ermöglicht Ihnen die Installation von Pelotrak.
 
-Android: Pelotrak kann direckt vom Google Play Store installiert werden: https://bit.ly/pltrkandroid
+Android: Installieren Sie Pelotrak direkt aus dem Google Play Store: https://bit.ly/pltrkandroid
