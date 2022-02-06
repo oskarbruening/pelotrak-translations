@@ -122,7 +122,7 @@ list:
   and: 'und'
 
 model:
-  unknown_key: 'Ooops. There is no data for this lookup key. Try reloading the app. ({key})'
+  unknown_key: 'Ooops. Für diese Datenanfrage gibt es keine Daten. Versuchen Sie, die Anwendung neu zu laden.  ({key})'
 
 time:
   desc:
@@ -227,7 +227,7 @@ metrics:
   duration:
     unit: min
   leaderboard:
-    name: Leaderboard-Rang
+    name: Ranglisten Position
     unit: '%'
   pacing:
     name: Ø Tempo
@@ -261,16 +261,16 @@ errors:
     name: Nur Fahren
     description: Cycling Workout
     img_url: 'https://pelotrak.s3.amazonaws.com/disclaimer.jpg'
-    no_edit_warn: 'Nur Fahren Kurse können leider nicht bearbeitet oder vorgemerkt werden.'
+    no_edit_warn: '"Just Ride" Kurse können leider nicht bearbeitet oder vorgemerkt werden.'
   bugs:
-    no_leaderboard: Dieses Workout hat dank eines Peloton Fehlers keine Leaderboard-Rank Daten.
-    paused: Dieses Workout wurde entweder gestoppt oder hat dank eines Peloton Fehlers keine Leaderboard-Rank Daten.
+    no_leaderboard: Dieses Workout hat dank eines Peloton Fehlers keine Ranglisten Daten.
+    paused: Dieses Workout wurde entweder gestoppt oder hat dank eines Peloton Fehlers keine Ranglisten Daten.
   heartrate:
     no_monitor:
-      warning: Es wurden keine Herzschlagdaten gefunden. Lern warum das wichtig ist.
-      details: 'Es wurden keine Herzschlagdaten in den Workouts der letzten paar Monate gefunden.\n\nPelotrak funktioniert mit einem Herzfrequenzmesser wesentlich besser. Zum Beispiel um deine Fitness zu berechnen.\n\nVielleicht solltest du dir einen Herzfrequenzmesser wie den [Scosche Rhythm+](https://www.amazon.com/Scosche-RHYTHM-Heart-Monitor-Armband/dp/B00JQHTJS2/ref=as_li_ss_tl) ([Amazon](https://www.amazon.com/Scosche-RHYTHM-Heart-Monitor-Armband/dp/B00JQHTJS2/ref=as_li_ss_tl)) oder den [Wahoo TICKR FIT](https://www.amazon.com/gp/product/B078GRMFSN/ref=as_li_ss_tl) ([Amazon](https://www.amazon.com/gp/product/B078GRMFSN/ref=as_li_ss_tl) zulegen.'
+      warning: Es wurden keine Herzfrequenzdaten gefunden. Lerne, warum das wichtig ist.
+      details: 'Es wurden keine Herzfrequenzdaten in den Workouts der letzten paar Monate gefunden.\n\nPelotrak funktioniert mit einem Herzfrequenzmesser wesentlich besser. Zum Beispiel um deine Fitness zu berechnen.\n\nVielleicht solltest du dir einen Herzfrequenzmesser wie den [Scosche Rhythm+](https://www.amazon.com/Scosche-RHYTHM-Heart-Monitor-Armband/dp/B00JQHTJS2/ref=as_li_ss_tl) ([Amazon](https://www.amazon.com/Scosche-RHYTHM-Heart-Monitor-Armband/dp/B00JQHTJS2/ref=as_li_ss_tl)) oder den [Wahoo TICKR FIT](https://www.amazon.com/gp/product/B078GRMFSN/ref=as_li_ss_tl) ([Amazon](https://www.amazon.com/gp/product/B078GRMFSN/ref=as_li_ss_tl) zulegen.'
   page:
-    no_translate: 'Diese Seite hat leider noch keine deutsche Version. Falls du damit helfen möchtest sende bitte deine Übersetztung on oskar@pelotrak.com. Es wäre sehr geschätzt.'
+    no_translate: 'Diese Seite hat leider noch keine deutsche Version. Falls du damit helfen möchtest sende bitte deine Übersetztung on oskar@pelotrak.com. Es wäre sehr willkommen.'
   no_data: Keine Daten
   unknown_instr: Unbekannt
   no_instr: 'Ohne Trainer:in'
@@ -327,7 +327,7 @@ workout_targets:
     long: Flexibilität
   mindfulness:
     short: Mnd
-    long: Mindfulness
+    long: Achtsamkeit
 
 homepage:
   links:
@@ -351,7 +351,7 @@ launcher:
     title: Peloton Login
     popup:
       title: Dein Peloton Login
-      body: 'Um deine Workouts zu analysieren braucht Pelotrak dein Peloton Login.\n\nDie Login Informationen und alle Workout Daten werden nur auf dem Handy gesichert und außer dir hat niemand auf sie Zugriff.\n\nWeitere Details sind in den [Teilnahmebedingungen](https://pelotrak.com/terms-conditions/).'
+      body: 'Um deine Workouts zu analysieren benötigt Pelotrak dein Peloton Login.\n\nDie Login Informationen und alle Workout Daten werden nur auf dem Handy gesichert und außer dir hat niemand auf sie Zugriff.\n\nWeitere Details sind in den [Teilnahmebedingungen](https://pelotrak.com/terms-conditions/).'
     help: Hilfe
     error:
       password: Falscher Benutzername oder Kennwort
@@ -377,23 +377,23 @@ launcher:
     tips:
       title: Tipps für dich
       next: Nächster Tipp
-      tip_1: Pelotrak hat ein einmaliges Punktsystem names PeloPower das deine Workouts auf Anstrengung und Verbesserung auswärtet.
+      tip_1: Pelotrak hat ein einmaliges Punkt-System names PeloPower das deine Workouts auf Anstrengung und Verbesserung auswertet.
       tip_2: Mit Pelotrak ist es einfach mit Peloton Freunden in Kontakt zu bleiben und Erfolge zusammen zu feiern.
       tip_3: Pelotrak ist ein kostenloses Projekt aber leider ist die Unterhaltung nicht billig. Bitte spende wenn es dir gefällt.
-      tip_4: Pelotrak ist immernoch in Beta und dein Feedback ist sehr geschätzt.
+      tip_4: Pelotrak ist immer noch in Beta und dein Feedback ist sehr geschätzt.
   error:
     title: Pelotrak konnte starten
     button: nochmal probieren
     message:
-      general: Pelotrak konnte nicht gestartet werden. Bitte geh sicher daß du eine gute Internetverbindung hast und starte die App nochmal.
-      specific: '🤦‍♂️ Peinlich. Zum Glück kann dieser Fehler wahrscheinlich repariert werden. Bitte email einen Screenshot von dieser Meldung an oskar@pelotrak.com. 🙏 Vielen Dank! Fehler: {error}'
+      general: Pelotrak konnte nicht gestartet werden. Bitte gehe sicher, daß du eine gute Internetverbindung hast und starte die App nochmal.
+      specific: '🤦‍♂️ Peinlich. Zum Glück kann dieser Fehler wahrscheinlich repariert werden. Bitte sende einen Screenshot von dieser Meldung per Email an oskar@pelotrak.com. 🙏 Vielen Dank! Fehler: {error}'
 
 updates:
   new:
     user: Neue Freunde gefunden.
     workout: Neue Workouts deiner Freunde gefunden.
     yours: Deine neuen Workouts gefunden.
-    version: Eine neue Version von Pelotrak ist erhältlich. Bitte update die App.
+    version: Eine neue Version von Pelotrak ist erhältlich. Bitte führe ein Update der App durch.
     bookmark: Vorgemerkte Kurse aktualisiert.
   goals:
     you: 'Du hast ein Ziel erreicht 🎉.'
@@ -417,7 +417,7 @@ payments:
 
 migration:
   title: Einen Moment Bitte
-  body: Diese Version muss Deine Daten etwas aufräumen und das kann einen Moment dauern. Bitte schließe die App nicht. Solltest du Probleme haben, bitte email oskar@pelotrak.com.
+  body: Diese Version muss Deine Daten etwas aufräumen und das kann einen Moment dauern. Bitte schließe die App nicht. Solltest du Probleme haben, bitte sende eine Email an oskar@pelotrak.com.
   one_dot_five:
     title: Update für 1.5
     body: 'Pelotrak muß alle deine Daten neu laden. Das kann ein paar Minuten dauern. Bitte schließe die App nicht. Falls es Probleme gibt, bitte lösche die App und installiere sie neu.\n\nStatus: {perc}%'
@@ -916,7 +916,7 @@ power_zone:
     intro_1: 'Die Zonenvorgaben der Peloton Trainer:innen werden nicht von Peloton geteilt und werden stattdessen von der Pelotrak Gemeinde gesammelt.'
     intro_2: Je mehr Benutzer Zonenvorgaben sammeln, um so genauer werden sie.
     record: Erfasse Zonenvorgaben
-    list: Ride Bibliothek
+    list: Kursbibliothek
     names:
       short: '{datetime}, {duration}\n{zones}'
       zones: 'Zonen {min}-{max}'
@@ -962,7 +962,7 @@ power_zone:
       bar: TSS
       week: '{num}. Woche'
   tss:
-    search: TSS Ride Suche
+    search: TSS-Kurs Suche
     chart: TSS für {start} - {end}
   library:
     by: Zonenvorgaben von {users}
@@ -1020,7 +1020,7 @@ power_zone:
         save: speichern
         del: verwerfen
     library:
-      list: Ride Bibliothek
+      list: Kursbibliothek
       title: '{count} Zonenvorgaben wurden von der Gemeinde aufgezeichnet. Danke!'
     list:
       title: Zeitmarken der Vorgaben
