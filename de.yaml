@@ -1079,7 +1079,7 @@ invite:
 
 share:
   page: 'Individualisieren + Teilen'
-  watermark: '#pelotrak'
+  watermark: 'made with Pelotrak'
   button:
     image: Foto
     height: Größe
