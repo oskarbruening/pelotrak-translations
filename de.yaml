@@ -284,6 +284,7 @@ button:
   pelopower: PeloPower?
   share: teilen
   cancel: abbrechen
+  done: fertig
 
 workout_category:
   all: Alle Workouts
@@ -1046,40 +1047,40 @@ power_zone:
       bad: 'Nicht nutzbar ❌'
 
 ftp:
-  page: Your FTPs
+  page: Deine FTP Teste
   list:
-    new: Add Manual FTP
-    note: When you make changes to your FTPs, you will need to recalculate the TSS for your workouts. This is done automatically when you refresh your data or by pushing the button below.
+    new: Neuer FTP Test
+    note: Wenn du deine FTPs veränderst, muss dein TSS für deine Workouts neu berechnet werden. Dies passiert automatisch wenn du deine Daten aktualisierst oder den Knopf unten drückst.
     recalc:
-      btn: Recalculate TSS
-      calc: recalculating...
+      btn: Berechne TSS Neu
+      calc: rechne...
   desc:
     test: FTP Test
-    manual: Manual Entry
+    manual: Manueller Eintrag
   new:
-    title: Date of FTP test
-    no_date: Add a date...
-    button: select
+    title: FTP-Test Datum
+    no_date: Neues Datum...
+    button: auswählen
     title_ftp: FTP
-    add: add FTP
+    add: speichern
 
 tss_search:
-  page: TSS Ride Search
-  none: Sorry, but none were found within +/- 10 TSS
-  library: From the Community Library
-  button: search
-  yours: Your Past Workouts
-  more: load more
+  page: TSS-Kurs Suche
+  none: Es wurden leider keine Kurse innerhalb +/- 10 TSS gefunden
+  library: Von der Kursbibliothek
+  button: suchen
+  yours: Deine Workouts
+  more: mehr laden
 
 invite:
-  page: Installing Pelotrak
-  title: Instructions To Share With Friends
-  button: copy instructions to clipboard
-  confirm: Copied text to clipboard
+  page: Pelotrak Installieren
+  title: Installationsanleitung zum Teilen
+  button: in die Zwischenablage kopieren
+  confirm: Wurde in die Zwischenablage kopiert
 
 share:
   page: 'Individualisieren + Teilen'
-  watermark: 'made with Pelotrak'
+  watermark: 'Made with Pelotrak'
   button:
     image: Foto
     height: Größe
@@ -1110,7 +1111,7 @@ share:
       text: Leistungsverteilung
       id: pzdistro
   insight:
-    location: Position
+    customize: anpassen
   font:
     color: Schriftfarber
     shadow: Schattenfarbe
@@ -1556,7 +1557,7 @@ settings:
     create: Erstelle neue Log Datei...
   favorites:
     title: Enge Freunde
-    note: Aus technischen Gründen läd Pelotrak nur die ersten {limit} Freunde von Peloton.
+    note: Wähle deine engen Freunde von den Mitgliedern in deinem Feed aus.
     none: Du folgst niemanden in Peloton.
   starts_on:
     title: Woche startet am

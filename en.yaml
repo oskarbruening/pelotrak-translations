@@ -286,6 +286,7 @@ button:
   pelopower: PeloPower?
   share: share
   cancel: cancel
+  done: done
 
 workout_category:
   all: All Workouts
@@ -1081,7 +1082,7 @@ invite:
 
 share:
   page: 'Customize + Share'
-  watermark: 'made with Pelotrak'
+  watermark: 'Made with Pelotrak'
   button:
     image: Photo
     height: Height
@@ -1112,7 +1113,7 @@ share:
       text: Output Distribution
       id: pzdistro
   insight:
-    location: Location
+    customize: customize
   font:
     color: Text Color
     shadow: Shadow Color
@@ -1558,7 +1559,7 @@ settings:
     create: Creating new log file...
   favorites:
     title: Close Friends
-    note: For performance reasons, Pelotrak only adds the first {limit} people you are following from Peloton to your feed.
+    note: Select your close friends from the members in your feed.
     none: You are not following anyone.
   starts_on:
     title: Week starts on
